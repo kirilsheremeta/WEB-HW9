@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "web-hw9"
+version = "0.1.0"
+description = ""
+authors = ["Kiril Sheremeta <120675223+kirilsheremeta@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "web_hw9"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+scrapy = "^2.9.0"
+scrapyscript = "^1.1.5"
+mongoengine = "^0.27.0"
+redis = "^4.5.5"
+itemadapter = "^0.8.0"
+redis-lru = "^0.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
